@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+button.button {
+  border-radius: 4px;
+  background-color: #777772;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  width: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
-You can use the [editor on GitHub](https://github.com/raffa1996/Champions-League-Final/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+button.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+button.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-### Markdown
+button.button:hover span {
+  padding-right: 15px;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/raffa1996/Champions-League-Final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+button.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<button style="margin-right:10px; margin-left:170px" onclick="window.location.href='https://raffa1996.github.io/5yards5feet'" class="button"><span>Home </span></button> |  <button style="margin-left:10px; margin-right:10px" onclick="window.location.href='https://raffa1996.github.io/Apps'" class="button"><span>Apps </span></button> | 
+<button style="margin-left:10px" onclick="window.location.href='https://raffa1996.github.io/Projects'" class="button"><span>Projects </span></button><br>
