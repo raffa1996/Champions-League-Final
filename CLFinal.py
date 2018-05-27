@@ -138,5 +138,17 @@ def score(liv, rm):
         for j in range(len(pos)):
             if(pos[i,j]==max_num):
                 print "Final Result ----> Real Madrid ",j,"-",i, "Liverpool"
+                
+    print "Next Possibility of Final Result:"
+    dup = pos 
+    dup.sort()
+    second_max_num = dup[len(dup)-2]
+    i = 0 
+    j = 0
+    for i in range(len(pos)):
+        for j in range(len(pos)):
+            if(pos[i,j]==second_max_num):
+                print "Second Possibility ------> Real Madrid ",j,"-",i "Liverpool"
+   
     
 score(liv, rm)
