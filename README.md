@@ -1,1 +1,1 @@
-https://raffa1996.github.io/Champions-League-Final
+Created a dataset of the performances of both Real Madrid and Liverpool, then created a Poisson Distribution Model and finally predicted the scoreline of the match. https://raffa1996.github.io/Champions-League-Final
